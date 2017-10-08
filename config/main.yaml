@@ -1,0 +1,25 @@
+{
+	"db" : 
+  {
+    "service" : "mongo",
+    "port" : "27107",
+    "db_user" : "YOUR_USERNAME",
+    "db_pass" : "YOUR_PASSWORD",
+    "db_name" : "YOUR_DB"
+  },
+
+  {
+    "service" : "elasticsearch",
+    "port" : "",
+    "db_user" : "",
+    "db_pass" : "",
+    "db_name" : ""
+  },
+
+  "port" : 
+  {
+    "dev" : "3000",
+    "production" : "27001"
+  }
+  
+}
