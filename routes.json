@@ -1,0 +1,8 @@
+{
+	"id" : 1,
+	"routes" : [
+		{"path" : "/test", "target" : "http://google.com", "message" : "This is Test Response" },
+		{"path" : "/hi", "target" : "http://facebook.com", "message" : "This is Hi Response"}
+	]
+
+}
