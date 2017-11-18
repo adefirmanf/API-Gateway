@@ -1,6 +1,6 @@
-var app = require('express')()
-var request = require('request')
-var index = require('./routes/index')
+const app = require('express')()
+const request = require('request')
+const index = require('./routes/index')
 /**
 * This file will used for handling Authentication and Routes
 * 

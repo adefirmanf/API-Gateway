@@ -1,7 +1,7 @@
-var Router = require('express').Router()
-var proxy = require('express-http-proxy')
-var Path = require('../routes.json').routes
-var _ = require('lodash')
+const Router = require('express').Router()
+const proxy = require('express-http-proxy')
+const Path = require('../routes.json').routes
+const _ = require('lodash')
 
 Path.forEach(function(key){
 	Router.use(key.path, function(req, res){

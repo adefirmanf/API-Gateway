@@ -1,4 +1,4 @@
-var Server = require('../bin/www').newServer
+const Server = require('../bin/www').newServer
 /**
  * If you had any idea for better development, you can contribute this project
  * Please check a contribution guide for more details
