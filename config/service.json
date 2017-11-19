@@ -1,0 +1,11 @@
+{
+  "name": "SnailGateway",
+  "version": "v1.2",
+  "service": {
+    "name": "ElasticSearch",
+    "url": "127.0.0.1",
+    "port": "9200"
+  },
+  "secret": "myTest1234",
+  "token": "7b44892dc468e36e1b8023a20514cf3580d806ec224c78fdfd07708fc6a4466d"
+}
